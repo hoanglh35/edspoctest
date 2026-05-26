@@ -1,0 +1,40 @@
+{
+  "variantName": "hero-press",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-05-26T07:37:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.cohesity.com/newsroom/press/cohesity-earns-aws-resilience-competency/",
+    "originPage": "Cohesity AWS Resilience Competency Press Release",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "purpose": "press-release-hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "date + heading + subtitle + image",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "press release pages",
+      "news article pages",
+      "announcement pages with date and image",
+      "corporate communications with hero image"
+    ],
+    "notSuitableFor": [
+      "product landing pages with CTAs",
+      "promotional banners",
+      "hero sections requiring background images"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/newsroom/press/cohesity-earns-aws-resilience-competency/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-26T07:37:00.000Z"
+  }
+}

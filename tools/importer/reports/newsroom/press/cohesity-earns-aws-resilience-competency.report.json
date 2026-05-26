@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://www.cohesity.com/newsroom/press/cohesity-earns-aws-resilience-competency/",
+  "path": "newsroom/press/cohesity-earns-aws-resilience-competency",
+  "timestamp": "2026-05-26T07:50:19.981Z",
+  "title": "Cohesity Earns AWS Resilience Competency, Advancing Enterprise Cyber Recovery",
+  "template": "press-release",
+  "blocks": [
+    "hero-press",
+    "cards-press"
+  ]
+}

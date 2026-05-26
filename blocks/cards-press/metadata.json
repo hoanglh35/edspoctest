@@ -1,0 +1,40 @@
+{
+  "variantName": "cards-press",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-05-26T07:37:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.cohesity.com/newsroom/press/cohesity-earns-aws-resilience-competency/",
+    "originPage": "Cohesity AWS Resilience Competency Press Release",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "related-articles",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "icon + eyebrow + heading + link",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "related press releases section",
+      "related news articles",
+      "blog post recommendations",
+      "content with small icons and eyebrow labels"
+    ],
+    "notSuitableFor": [
+      "product cards with large images",
+      "promotional tile grids",
+      "icon-only navigation grids"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/newsroom/press/cohesity-earns-aws-resilience-competency/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-26T07:37:00.000Z"
+  }
+}

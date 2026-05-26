@@ -189,6 +189,75 @@
           ]
         }
       ]
+    },
+    {
+      "name": "press-release",
+      "urls": [
+        "https://www.cohesity.com/newsroom/press/cohesity-earns-aws-resilience-competency/"
+      ],
+      "description": "Press release / news article page with headline, date, body content, and company boilerplate",
+      "blocks": [
+        {
+          "name": "hero-press",
+          "instances": [
+            ".cmp-heroes-container"
+          ]
+        },
+        {
+          "name": "cards-press",
+          "instances": [
+            ".related-list-container__press"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-hero",
+          "name": "Hero",
+          "selector": ".heroes",
+          "style": "mint-green",
+          "blocks": [
+            "hero-press"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-article-body",
+          "name": "Article Body",
+          "selector": ".press-release-detail .responsivegrid",
+          "style": null,
+          "blocks": [],
+          "defaultContent": []
+        },
+        {
+          "id": "section-about",
+          "name": "About Cohesity",
+          "selector": ".press-release-detail .responsivegrid",
+          "style": null,
+          "blocks": [],
+          "defaultContent": []
+        },
+        {
+          "id": "section-contacts",
+          "name": "Media Contacts",
+          "selector": ".press-release-detail .responsivegrid",
+          "style": null,
+          "blocks": [],
+          "defaultContent": []
+        },
+        {
+          "id": "section-related",
+          "name": "Related Articles",
+          "selector": ".relatedlist",
+          "style": null,
+          "blocks": [
+            "cards-press"
+          ],
+          "defaultContent": [
+            ".related-list__heading h2"
+          ]
+        }
+      ]
     }
   ]
 }

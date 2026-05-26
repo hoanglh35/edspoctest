@@ -1,0 +1,33 @@
+{
+  "status": "success",
+  "url": "https://www.lg.com/de/",
+  "path": "de",
+  "timestamp": "2026-05-26T05:25:31.308Z",
+  "title": "Unterhaltungs- und Heimelektronik von LG | LG Deutschland",
+  "template": "homepage",
+  "blocks": [
+    "carousel-promo",
+    "carousel-promo",
+    "carousel-promo",
+    "carousel-promo",
+    "carousel-promo",
+    "carousel-promo",
+    "carousel-promo",
+    "carousel-promo",
+    "cards-icon",
+    "cards-icon",
+    "cards-icon",
+    "cards-icon",
+    "cards-icon",
+    "cards-icon",
+    "cards-promo",
+    "hero-banner",
+    "columns-newsletter",
+    "columns-newsletter",
+    "columns-newsletter",
+    "columns-newsletter",
+    "columns-newsletter",
+    "columns-newsletter",
+    "columns-newsletter"
+  ]
+}

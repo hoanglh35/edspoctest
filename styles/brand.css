@@ -1,0 +1,19 @@
+:root {
+  --heading-font-family: "KlavikaWebCondensed", "Arial Narrow", sans-serif;
+  --body-font-family: "KlavikaWeb", "Arial", sans-serif;
+  --background-color: #fff;
+  --text-color: #000;
+  --link-color: #06f;
+  --link-hover-color: #0052cc;
+  --section-padding: 64px 0;
+  --content-max-width: 1020px;
+  --nav-height: 80px;
+  --heading-size-xxl: 36px;
+  --heading-size-xl: 44px;
+  --heading-size-l: 44px;
+  --heading-size-m: 20px;
+  --heading-size-s: 22px;
+  --heading-size-xs: 16px;
+  --color-mint-green: #f0faf5;
+  --color-dark: #1a1a2e;
+}
