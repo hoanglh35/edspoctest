@@ -1,0 +1,40 @@
+{
+  "variantName": "cards-icon",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-05-26T04:58:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.lg.com/de/",
+    "originPage": "LG Germany Homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "icon-navigation",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "icon + heading + description",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "quick link navigation bars",
+      "service feature grids",
+      "benefit listings with icons",
+      "support service directories"
+    ],
+    "notSuitableFor": [
+      "product showcases with large images",
+      "editorial content cards",
+      "full-width promotional banners"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/de/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-26T04:58:00.000Z"
+  }
+}

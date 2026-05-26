@@ -1,0 +1,40 @@
+{
+  "variantName": "hero-banner",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-05-26T04:58:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.lg.com/de/",
+    "originPage": "LG Germany Homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "colored",
+    "density": "spacious",
+    "purpose": "promotional-banner",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + text overlay + link",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "mid-page promotional banners",
+      "product spotlight banners",
+      "campaign awareness banners",
+      "trending product highlights"
+    ],
+    "notSuitableFor": [
+      "page-top hero banners with multiple CTAs",
+      "text-only hero sections",
+      "multi-slide carousels"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/de/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-26T04:58:00.000Z"
+  }
+}

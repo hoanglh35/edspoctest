@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "projectType": "doc"
+  },
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://www.lg.com/de/"
+      ],
+      "description": "LG Germany homepage with hero banners, product categories, and promotional content",
+      "blocks": [
+        {
+          "name": "carousel-promo",
+          "instances": [
+            ".component.ST0048 .cmp-carousel.c-carousel",
+            ".c-wrapper.PD0002 .cmp-carousel.c-carousel",
+            ".c-wrapper.PD0046 .cmp-carousel.c-carousel"
+          ]
+        },
+        {
+          "name": "cards-icon",
+          "instances": [
+            ".c-wrapper.CM0014 .c-quick-links",
+            ".c-wrapper.ST0020 .c-spec-info",
+            "#experiencefragment-c148a9d37d .CM0010",
+            ".c-support--card"
+          ]
+        },
+        {
+          "name": "cards-promo",
+          "instances": [
+            ".c-wrapper.PD0041"
+          ]
+        },
+        {
+          "name": "hero-banner",
+          "instances": [
+            ".trdBanner-v1"
+          ]
+        },
+        {
+          "name": "columns-newsletter",
+          "instances": [
+            ".c-wrapper.ST0003",
+            ".c-wrapper.ST0001.width-content"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-hero-carousel",
+          "name": "Hero Carousel",
+          "selector": ".component.ST0048",
+          "style": null,
+          "blocks": [
+            "carousel-promo"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-quick-links",
+          "name": "Quick Links Bar",
+          "selector": ".c-wrapper.CM0014",
+          "style": null,
+          "blocks": [
+            "cards-icon"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-promo-tiles",
+          "name": "Promotional Tiles",
+          "selector": ".c-wrapper.PD0041",
+          "style": null,
+          "blocks": [
+            "cards-promo"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-trending-banner",
+          "name": "Trending Product Banner",
+          "selector": "#experiencefragment-8d48ec26cc",
+          "style": null,
+          "blocks": [
+            "hero-banner"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-member-benefits",
+          "name": "Member Benefits",
+          "selector": [
+            ".c-wrapper.ST0020.shape-horizontal:nth-of-type(1)"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-icon"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-service-features",
+          "name": "Service Features",
+          "selector": [
+            ".c-wrapper.ST0020.shape-horizontal:nth-of-type(2)"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-icon"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-membership",
+          "name": "LG Membership",
+          "selector": "#experiencefragment-c148a9d37d",
+          "style": null,
+          "blocks": [
+            "cards-icon"
+          ],
+          "defaultContent": [
+            ".c-region-header__headline",
+            ".c-region-header__text"
+          ]
+        },
+        {
+          "id": "section-product-recs",
+          "name": "Product Recommendations",
+          "selector": ".c-wrapper.PD0002",
+          "style": "border-top",
+          "blocks": [
+            "carousel-promo"
+          ],
+          "defaultContent": [
+            ".c-region-header__headline"
+          ]
+        },
+        {
+          "id": "section-highlight-stories",
+          "name": "Highlight Stories",
+          "selector": ".c-wrapper.PD0046",
+          "style": null,
+          "blocks": [
+            "carousel-promo"
+          ],
+          "defaultContent": [
+            ".c-region-header__headline",
+            ".c-region-header__text"
+          ]
+        },
+        {
+          "id": "section-newsletter",
+          "name": "Newsletter",
+          "selector": [
+            ".c-wrapper.ST0003.align-left",
+            ".c-wrapper.ST0001.width-content"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-newsletter"
+          ],
+          "defaultContent": [
+            ".c-text-contents__eyebrow"
+          ]
+        },
+        {
+          "id": "section-support",
+          "name": "Support Section",
+          "selector": ".container.responsivegrid.margin-top.margin-bottom",
+          "style": null,
+          "blocks": [
+            "cards-icon"
+          ],
+          "defaultContent": [
+            ".c-region-header__headline",
+            ".c-region-header__text"
+          ]
+        },
+        {
+          "id": "section-disclaimer",
+          "name": "Disclaimer",
+          "selector": ".c-wrapper.ST0003.type-section-title",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            ".cmp-text"
+          ]
+        }
+      ]
+    }
+  ]
+}

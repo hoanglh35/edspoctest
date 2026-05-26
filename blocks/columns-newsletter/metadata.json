@@ -1,0 +1,40 @@
+{
+  "variantName": "columns-newsletter",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-05-26T04:58:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.lg.com/de/",
+    "originPage": "LG Germany Homepage",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "newsletter-signup",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image column + text/form column",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "newsletter signup sections",
+      "email subscription areas",
+      "content with image + form side-by-side",
+      "two-column promotional layouts"
+    ],
+    "notSuitableFor": [
+      "multi-column text layouts",
+      "comparison tables",
+      "icon grids"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/de/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-26T04:58:00.000Z"
+  }
+}

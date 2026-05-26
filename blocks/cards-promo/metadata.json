@@ -1,0 +1,40 @@
+{
+  "variantName": "cards-promo",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-05-26T04:58:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.lg.com/de/",
+    "originPage": "LG Germany Homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "promotional-tiles",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + short text + link",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "promotional tile grids",
+      "offer showcases",
+      "campaign highlight cards",
+      "category entry points"
+    ],
+    "notSuitableFor": [
+      "text-heavy content cards",
+      "icon-based navigation",
+      "product listing cards"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/de/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-26T04:58:00.000Z"
+  }
+}
